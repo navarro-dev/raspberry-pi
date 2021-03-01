@@ -1,8 +1,9 @@
 ## Installing the Docker Engine on Raspbian
 
- 1. Make sure you update and upgrade Raspbian
+ 1. Make sure you update, upgrade Raspbian and reboot the Pi
     ```
     sudo apt-get update && sudo apt-get upgrade
+    sudo reboot now
     ```
  2. Download the convenience script and run script to install the Docker Engine
     ```
